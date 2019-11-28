@@ -1,18 +1,37 @@
 /*ASSINGMENT NUMB 1*/
-/*Task.9 Repeat for subtraction, multiplication, division & modulus. */
+/*Task.10 Do the following using JS Mathematic Expressions
+a. Declare a variable.
+b. Show the value of variable in your browser like “Value after
+variable declaration is: ??”.
+c. Initialize the variable with some number.
+d. Show the value of variable in your browser like “Initial value: 5”.
+e. Increment the variable.
+f. Show the value of variable in your browser like “Value after
+increment is: 6”.
+g. Add 7 to the variable.
+h. Show the value of variable in your browser like “Value after
+addition is: 13”.
+i. Decrement the variable.
+j. Show the value of variable in your browser like “Value after
+decrement is: 12”.
+k. Show the remainder after dividing the variable’s value by 3.
+l. Output : “The remainder is : 0”.*/
+
+var newNum ;
+document.write("Value after variable declaration is " + newNum+ "<br>");
 
 
-var num3  = 3;
-var numb5 = 5;
-var sub   = num3 - numb5;
-var mul   = num3 * numb5;
-var div   = num3 / numb5;
-var mod   = num3 % numb5;
+var newNum  = 5;
+document.write(" Initial value: " + newNum + "<br>");
 
-document.write(" Subtraction of " + num3 +  " and " + numb5 + " is " + sub + "<br>");
+var increment = ++newNum;
+document.write(" Value after increment is: " + increment + "<br>");
 
-document.write(" Multiplaction of " + num3 + " and " + numb5 + " is " + mul + "<br>");
+var add = increment + 7;
+document.write(" Value after addition is: " + add + "<br>");
 
-document.write(" Division of " + num3 + " and " + numb5 + " is " + div + "<br>");
+var decrement = --add;
+document.write(" Value after decrement is: " + decrement + "<br>");
 
-document.write(" Module of " + num3 + " and " + numb5 + " is " + mod + "<br>");
+var sub = decrement - decrement
+document.write(" The remainder is: " + sub + "<br>");
